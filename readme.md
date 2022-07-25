@@ -5,7 +5,7 @@ Hello 👋
  I am Satyam Mishra 
 
 
-I am an Engineering Student and I have a keen interest in software development. I'm a self-taught ReactJS front-end Developer. I enjoy learning new languages and skills from online courses.Other than coding, I love music and traveling.
+I am an Engineering Student and I have a keen interest in software development. I'm a self-taught HTML,CSS,JS front-end Developer. I enjoy learning new languages and skills from online courses.Other than coding, I love music and traveling.
 
 
 This are so of my contact links 
