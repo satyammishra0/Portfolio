@@ -15,9 +15,9 @@ GITHUB -- https://github.com/satyammishra0
 
 LINKEDIN -- https://www.linkedin.com/in/satyam-mishra-b35916213/
               
-INSTAGRAM --  https://www.instagram.com/_satyammishra07/" 
+INSTAGRAM --  https://www.instagram.com/_satyammishra07/
               
-HACKERRANK --  https://www.hackerrank.com/satyam_growupne1"
+HACKERRANK --  https://www.hackerrank.com/satyam_growupne1
 
 EMAIL -- satyamjay007@gmail.com
 
