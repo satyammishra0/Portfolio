@@ -1,317 +1,309 @@
 body {
-    background-color: var(--body-bg);
+  background-color: var(--body-bg);
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 header {
-    padding: 2% 12%;
+  padding: 2% 12%;
 }
 
-header>nav>h1>a {
-    font-style: italic;
-    color: var(--primary-color);
-    font-size: 18px;
-    font-weight: bold;
+header > nav > h1 > a {
+  font-style: italic;
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: bold;
 }
 
-nav>ul {
-    display: flex;
-    align-items: center;
-    gap: 18px;
+nav > ul {
+  display: flex;
+  align-items: center;
+  gap: 18px;
 }
 
-header>nav>ul>li>a {
-    text-decoration: none;
-    color: var(--primary-color);
-    font-size: 15px;
+header > nav > ul > li > a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 15px;
 }
-
 
 /* section one */
 
 .one {
-    padding: var(--section-padding);
-    color: var(--secondary-color);
-    font-size: 18px;
-    padding-bottom: 1%;
+  padding: var(--section-padding);
+  color: var(--secondary-color);
+  font-size: 18px;
+  padding-bottom: 1%;
 }
 
-.one-grid-1>h2 {
-    font-size: 30px;
+.one-grid-1 > h2 {
+  font-size: 30px;
 }
 
-.one-grid-1>p {
-    font-size: 19px;
-    color: #8795a1;
-    text-align: left;
-    line-height: 24x;
-    font-weight: 400;
-    margin-right: 122px;
-    margin-top: 8%;
+.one-grid-1 > p {
+  font-size: 19px;
+  color: #8795a1;
+  text-align: left;
+  line-height: 24x;
+  font-weight: 400;
+  margin-right: 122px;
+  margin-top: 8%;
 }
 
-.one-grid-1>img {
-    height: 420px;
-    width: 100%;
+.one-grid-1 > img {
+  height: 420px;
+  width: 100%;
 }
-
 
 /* social links */
 
 .links {
-    padding: var(--section-padding);
-    padding-top: 0;
+  padding: var(--section-padding);
+  padding-top: 0;
 }
 
 .links-row {
-    justify-content: center;
-    gap: 30px;
+  justify-content: center;
+  gap: 30px;
 }
 
-.links-row>a>ion-icon {
-    color: var(--secondary-color);
-    font-size: 28px;
+.links-row > a > ion-icon {
+  color: var(--secondary-color);
+  font-size: 28px;
 }
-
 
 /* section two */
 
 .two {
-    padding: var(--section-padding);
-    padding-top: 0;
+  padding: var(--section-padding);
+  padding-top: 0;
 }
 
-.two>h4 {
-    text-align: center;
-    font-size: 24px;
-    color: var(--primary-color);
+.two > h4 {
+  text-align: center;
+  font-size: 24px;
+  color: var(--primary-color);
 }
 
 .two-grid {
-    grid-template-columns: 48% 48%;
-    grid-gap: 4%;
-    margin-top: 5%;
+  grid-template-columns: 48% 48%;
+  grid-gap: 4%;
+  margin-top: 5%;
 }
 
 .two-grid-box {
-    padding: 8%;
-    padding-right: 15%;
-    background-color: var(--black);
-    color: var(--secondary-color);
-    font-size: 18px;
-    width: 100%;
+  padding: 8%;
+  padding-right: 15%;
+  background-color: var(--black);
+  color: var(--secondary-color);
+  font-size: 18px;
+  width: 100%;
 }
 
-.two-grid-box>h4 {
-    font-size: 24px;
-    color: var(--primary-color);
+.two-grid-box > h4 {
+  font-size: 24px;
+  color: var(--primary-color);
 }
 
-.two-grid-box>p {
-    font-size: 14px;
-    margin: 5% 0;
+.two-grid-box > p {
+  font-size: 14px;
+  margin: 5% 0;
 }
 
 .two-grid-box-icon {
-    gap: 15px;
+  gap: 15px;
 }
 
-.two-grid-box-icon>div>a {
-    color: var(--secondary-color);
-    font-size: 16px;
+.two-grid-box-icon > div > a {
+  color: var(--secondary-color);
+  font-size: 16px;
 }
 
-.two-grid-box-icon>div>a {
-    text-align: center;
+.two-grid-box-icon > div > a {
+  text-align: center;
 }
 
 .two-btn {
-    padding: 5% 0;
-    padding-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 12%;
 }
-
 
 /* section three */
 
 .three {
-    padding: var(--section-padding);
-    padding-top: 0;
+  padding: var(--section-padding);
+  padding-top: 0;
 }
 
 .three.line {
-    margin: 5% 0 !important;
+  margin: 5% 0 !important;
 }
 
-.skills-section>h4 {
-    text-align: center;
-    font-size: 24px;
-    color: var(--primary-color);
+.skills-section > h4 {
+  text-align: center;
+  font-size: 24px;
+  color: var(--primary-color);
 }
 
 .skills-box {
-    text-align: center;
-    font-size: 24px;
-    color: var(--secondary-color);
-    padding: 4% 0;
+  text-align: center;
+  font-size: 24px;
+  color: var(--secondary-color);
+  padding: 4% 0;
 }
 
 .skills-box-1 {
-    gap: 40px;
+  gap: 40px;
 }
 
-.skills-box-1>img {
-    height: 55px;
+.skills-box-1 > a > img {
+  height: 55px;
 }
-
 
 /* fourth section */
 
 .four {
-    padding: var(--section-padding);
-    padding-top: 0;
+  padding: var(--section-padding);
+  padding-top: 0;
 }
 
 .four.line {
-    margin: 5% 0 !important;
+  margin: 5% 0 !important;
 }
 
-.four>h4 {
-    text-align: center;
-    font-size: 24px;
-    color: var(--primary-color);
-    margin-bottom: 5%;
+.four > h4 {
+  text-align: center;
+  font-size: 24px;
+  color: var(--primary-color);
+  margin-bottom: 5%;
 }
 
 .work-box {
-    padding: 2%;
-    color: var(--secondary-color);
-    border-radius: 4px;
-    width: 65%;
-    border: 1px solid var(--primary-color);
+  padding: 2%;
+  color: var(--secondary-color);
+  border-radius: 4px;
+  width: 65%;
+  border: 1px solid var(--primary-color);
 }
 
-.work-box>h4 {
-    font-size: 22px;
-    color: var(--primary-color);
+.work-box > h4 {
+  font-size: 22px;
+  color: var(--primary-color);
 }
 
-.work-box>h6 {
-    font-size: 14px;
+.work-box > h6 {
+  font-size: 14px;
 }
 
-.work-box>p {
-    margin: 4% 0;
-    font-size: 16px;
+.work-box > p {
+  margin: 4% 0;
+  font-size: 16px;
 }
 
 .work-box.two-grid-box-icon {
-    margin: 5% 0;
+  margin: 5% 0;
 }
-
 
 /* sectiojn five */
 
 .five {
-    padding: var(--section-padding);
-    padding-top: 0;
+  padding: var(--section-padding);
+  padding-top: 0;
 }
 
 .five.line {
-    margin: 5% 0 !important;
+  margin: 5% 0 !important;
 }
 
-.five>h4 {
-    text-align: center;
-    font-size: 24px;
-    color: var(--primary-color);
-    margin-bottom: 2%;
+.five > h4 {
+  text-align: center;
+  font-size: 24px;
+  color: var(--primary-color);
+  margin-bottom: 2%;
 }
 
-.five>p {
-    margin: 2% 0;
-    color: var(--secondary-color);
+.five > p {
+  margin: 2% 0;
+  color: var(--secondary-color);
 }
 
 .contact-icons-social-links {
-    gap: 20px;
+  gap: 20px;
 }
 
 .contact-links-row-icons {
-    font-size: 28px;
-    color: var(--secondary-color);
+  font-size: 28px;
+  color: var(--secondary-color);
 }
-
 
 /* footer */
 
 footer {
-    padding: var(--section-padding);
-    padding-top: 0;
+  padding: var(--section-padding);
+  padding-top: 0;
 }
 
-footer>p {
-    text-align: center;
-    color: var(--secondary-color);
-    font-size: 15px;
+footer > p {
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: 15px;
 }
-
 
 /* media query */
 
 @media only screen and (max-width: 600px) {
-    .line {
-        width: 100%;
-    }
-    .one-grid-1>img {
-        height: 350px;
-    }
-    .one-grid-1>p {
-        margin-right: 0;
-        margin-top: 0;
-    }
-    .grid-2 {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .gird-3 {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    nav.flex-center {
-        display: block;
-    }
-    nav {
-        text-align: center;
-    }
-    nav>ul>li {
-        display: none;
-    }
-    .one-gird.grid-2 {
-        grid-gap: 0;
-        grid-template-columns: repeat(1, 1fr) !important;
-    }
-    .two-grid {
-        grid-gap: 0;
-        grid-template-columns: repeat(1, 1fr) !important;
-    }
-    .two-grid-box {
-        margin-bottom: 5%;
-    }
-    .links {
-        padding-top: 10%;
-    }
-    .skills-box.flex-center {
-        display: block !important;
-    }
-    .skills-box-1 {
-        gap: 10px;
-        margin: 5% 0;
-    }
-    .work-box {
-        width: 100%;
-    }
-    .contact-icons {
-        margin-top: 5%;
-    }
+  .line {
+    width: 100%;
+  }
+  .one-grid-1 > img {
+    height: 350px;
+  }
+  .one-grid-1 > p {
+    margin-right: 0;
+    margin-top: 0;
+  }
+  .grid-2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .gird-3 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  nav.flex-center {
+    display: block;
+  }
+  nav {
+    text-align: center;
+  }
+  nav > ul > li {
+    display: none;
+  }
+  .one-gird.grid-2 {
+    grid-gap: 0;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .two-grid {
+    grid-gap: 0;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .two-grid-box {
+    margin-bottom: 5%;
+  }
+  .links {
+    padding-top: 10%;
+  }
+  .skills-box.flex-center {
+    display: block !important;
+  }
+  .skills-box-1 {
+    gap: 10px;
+    margin: 5% 0;
+  }
+  .work-box {
+    width: 100%;
+  }
+  .contact-icons {
+    margin-top: 5%;
+  }
 }
